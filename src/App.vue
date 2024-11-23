@@ -12,6 +12,9 @@
               <router-link to="/" class="nav-link" active-class="active">Inicio</router-link>
             </li>
             <li class="nav-item">
+              <router-link to="/addtask" class="nav-link" active-class="active">Agregar Tarea</router-link>
+            </li>
+            <li class="nav-item">
               <router-link to="/apitasks" class="nav-link" active-class="active">Cargar Tareas (API)</router-link>
             </li>
             <li class="nav-item">
