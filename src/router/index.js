@@ -3,7 +3,7 @@ import VueRouter from 'vue-router';
 import HomeView from '../views/HomeView.vue';
 import AboutView from '../views/AboutView.vue';
 import AddTask from '../views/AddTask.vue';
-import ApiTasks from '../components/ApiTasks.vue';
+import ApiTasks from '../components/TasksApi.vue';
 import CombinedTasks from '../components/CombinedTasks.vue';
 
 Vue.use(VueRouter);
@@ -12,7 +12,7 @@ const routes = [
   { path: '/Tarea-clase7', component: HomeView },
   { path: '/about', component: AboutView },
   { path: '/addtask', component: AddTask },
-  { path: '/apitask', component: ApiTasks },
+  { path: '/apitasks', component: ApiTasks },
   { path: '/combinedtasks', component: CombinedTasks },
 ];
 
