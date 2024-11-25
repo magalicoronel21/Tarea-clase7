@@ -9,7 +9,7 @@ import CombinedTasks from '../components/CombinedTasks.vue';
 Vue.use(VueRouter);
 
 const routes = [
-  { path: '/', component: HomeView },
+  { path: '/Tarea-clase7', component: HomeView },
   { path: '/about', component: AboutView },
   { path: '/addtask', component: AddTask },
   { path: '/apitask', component: ApiTasks },
