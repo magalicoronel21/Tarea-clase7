@@ -3,7 +3,7 @@ import VueRouter from 'vue-router';
 import HomeView from '../views/HomeView.vue';
 import AboutView from '../views/AboutView.vue';
 import AddTask from '../views/AddTask.vue';
-import ApiTasks from '../components/TasksApi.vue';
+import ApiTasks from '../components/ApiTasks.vue';
 import CombinedTasks from '../components/CombinedTasks.vue';
 
 Vue.use(VueRouter);
