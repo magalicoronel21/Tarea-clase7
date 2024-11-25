@@ -9,7 +9,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <router-link to="/" class="nav-link" active-class="active">Inicio</router-link>
+              <router-link to="/Tarea-clase7" class="nav-link" active-class="active">Inicio</router-link>
             </li>
             <li class="nav-item">
               <router-link to="/addtask" class="nav-link" active-class="active">Agregar Tarea</router-link>
