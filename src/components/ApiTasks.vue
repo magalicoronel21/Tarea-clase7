@@ -1,6 +1,6 @@
 <template>
   <div class="container my-4">
-    <h2 class="text-center mb-4">Vista de Tareas desde la API</h2>
+    <h2 class="text-center mb-4">Vista Combinada de Tareas</h2>
 
     <!-- Tareas desde la API -->
     <div class="mb-4">
@@ -41,7 +41,7 @@
 export default {
   data() {
     return {
-      apiTasks: [],  // Tareas de la API
+      apiTasks: [],   // Tareas de la API
     };
   },
   mounted() {
@@ -78,6 +78,3 @@ export default {
   color: white !important;
 }
 </style>
-
-
-
